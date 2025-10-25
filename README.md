@@ -1,16 +1,45 @@
-# React + Vite
+# 🎯 Mayor Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Mayor Quiz App — a fun and interactive quiz application built with React and Tailwind CSS.  
+Test your knowledge across multiple categories and difficulty levels, and get your results instantly!
 
-Currently, two official plugins are available:
+Live Demo:[https://mayor-quizz-app.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Choose from multiple quiz categories  
+- Select your preferred difficulty level  
+- Get randomized questions from the Open Trivia DB API  
+- Instantly view your score and review correct answers  
+- Fully responsive and beautifully designed with TailwindCSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+- **React** — Frontend framework  
+- **Tailwind CSS** — Styling and layout  
+- **React Router DOM** — Navigation  
+- **Open Trivia DB API** — Quiz data source  
+- **Vite** — Fast and modern development setup
+
+---
+
+##  Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# 1️⃣ Clone this repository
+git clone https://github.com/your-username/mayor-quiz-app.git
+
+# 2️⃣ Navigate into the project folder
+cd mayor-quiz-app
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm run dev
