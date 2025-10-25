@@ -5,13 +5,22 @@ const App = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <h1>Welcome to Mayor Quiz App 🎯</h1>
-      <p>Here we test your knowledge across multiple topics!</p>
-      <p>Are you ready to test your knowledge and challenge your mind?</p>
-      <button onClick={() => navigate("/home")}>Click me to start your quiz</button>
+    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+      <h1 className="text-5xl font-extrabold mb-6 text-center drop-shadow-md">
+        Welcome to the Mayor Quiz App 🎯
+      </h1>
+      <p className="text-lg mb-8 text-center max-w-md">
+        Test your knowledge across different categories and difficulty levels.
+      </p>
+      <button
+        onClick={() => navigate("/home")}
+        className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-100 transition duration-300"
+      >
+        Start Quiz
+      </button>
     </div>
   );
 };
+
 
 export default App;

@@ -5,6 +5,8 @@ import App from "./App";
 import HomePage from "./pages/HomePage";
 import QuizPage from "./pages/QuizPage";
 import ResultPage from "./pages/ResultPage";
+import "./index.css";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
